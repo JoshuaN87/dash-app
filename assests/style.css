@@ -1,0 +1,36 @@
+
+
+.dropdown-container {
+    display: grid;
+    gap: 10px;
+}
+
+.dropdown-button {
+    width: 75%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.tabs-group {
+    padding-top: 20px;
+}
+
+.app-div {
+    padding: 10px;
+}
+
+.data-table-div {
+    margin: auto;
+    padding: 40px;
+}
+
+.budget-label {
+    font-size: 20px;
+    font-weight: Medium;
+}
+
+@media(max-width: 800px) {
+    .dropdown-container {
+        grid-template-columns: 1fr;
+    }
+}
