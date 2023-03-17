@@ -6,7 +6,6 @@ from src.components import (
     rep_dropdown,
     line_chart_web,
     blended_chart,
-    #web_year_dropdown
 )
 
 def create_layout(app: Dash, data=None, data_ad=None, merged=None) -> dbc.Container:
@@ -37,23 +36,3 @@ def create_layout(app: Dash, data=None, data_ad=None, merged=None) -> dbc.Contai
             ),
         ], justify='start')        
     ])
-
-'''
-def create_layout(app: Dash, data=None, data_ad=None) -> html.Div:
-    return html.Div(
-        className='p-4',
-        children=[
-                html.H1(app.title),
-                html.Hr(),
-                html.Div(
-                    children=[
-                        line_chart.render(app,data),
-                        line_chart_web.render_web(app,data_ad),
-                    ],
-                ),  
-                year_dropdown.render(app,data),
-                rep_dropdown.render(app,data),
-                #web_year_dropdown.render_web(app,data_ad), 
-        ],
-    )
-'''
