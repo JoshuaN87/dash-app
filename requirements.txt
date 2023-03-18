@@ -27,7 +27,7 @@ mkl-random==1.2.2
 mkl-service==2.4.0
 nodeenv==1.7.0
 numexpr==2.8.4
-numpy==1.23.5
+numpy
 packaging==21.0
 pandas==1.5.3
 pandas-stubs==1.5.3.230203
