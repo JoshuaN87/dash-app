@@ -18,7 +18,7 @@ def render(app: Dash, data: pd.DataFrame) -> html.Div:
         )
     def update_chart(years: list[str], reps: list[str]) -> html.Div:
         filtered_data = data.query(
-            "fiscal_year in @years and sales_rep in @ reps"
+            "fiscal_year == @years and sales_rep == @ reps"
         )
         if filtered_data.shape[0] == 0:        
             return html.Div("No Data Selected", id=ids.LINE_CHART)
@@ -26,20 +26,34 @@ def render(app: Dash, data: pd.DataFrame) -> html.Div:
         def grouped_data() -> pd.DataFrame:
             dff = filtered_data.groupby([DataSchema.WEEK, DataSchema.FISCAL_YEAR], as_index=False)[DataSchema.AMOUNT].sum(numeric_only=True)
             return dff  
-
-        fig = px.line(
-            grouped_data(),
-            x=DataSchema.WEEK,
-            y=DataSchema.AMOUNT,
-            color=DataSchema.FISCAL_YEAR,
-            line_shape='spline',
-            render_mode='svg',
-            title='Studio Sales YOY',
-            template='plotly_white',
-            color_discrete_sequence=['Orange', 'Blue']
-        )
-        fig.update_traces(mode="lines", hovertemplate='%{y:$,.0f}')
-        fig.update_layout(hovermode="x unified")       
+        try:
+            fig = px.line(
+                grouped_data(),
+                x=DataSchema.WEEK,
+                y=DataSchema.AMOUNT,
+                color=DataSchema.FISCAL_YEAR,
+                line_shape='spline',
+                render_mode='svg',
+                title='Studio Sales YOY',
+                template='plotly_white',
+                color_discrete_sequence=['Orange', 'Blue']
+            )
+            fig.update_traces(mode="lines", hovertemplate='%{y:$,.0f}')
+            fig.update_layout(hovermode="x unified")
+        except Exception:
+            fig = px.line(
+                grouped_data(),
+                x=DataSchema.WEEK,
+                y=DataSchema.AMOUNT,
+                color=DataSchema.FISCAL_YEAR,
+                line_shape='spline',
+                render_mode='svg',
+                title='Studio Sales YOY',
+                template='plotly_white',
+                color_discrete_sequence=['Orange', 'Blue']
+            )
+            fig.update_traces(mode="lines", hovertemplate='%{y:$,.0f}')
+            fig.update_layout(hovermode="x unified")        
         
         return html.Div(dcc.Graph(figure=fig), id=ids.LINE_CHART)
 

@@ -18,7 +18,7 @@ def render_blend(app: Dash, merged: pd.DataFrame) -> html.Div:
 
     def update_blend_chart(years: list[str]) -> html.Div:
         filtered_data = merged.query(
-            "fiscal_year in @years"
+            "fiscal_year == @years"
         )
         if filtered_data.shape[0] == 0:
             return html.Div("No Data Selected.", id=ids.BLENDED_LINE_CHART)  

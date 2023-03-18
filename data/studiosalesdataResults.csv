@@ -8602,7 +8602,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 1/14/2023 12:44 pm,03,Estimate,"80 Ramos, Julian",0,469.20,1,1
 1/14/2023 12:45 pm,03,Customer Invoice,"80 Ramos, Julian",1,469.20,0,0
 1/14/2023 1:04 pm,03,Customer Invoice,"71 Brunner, Nicole",1,1219.75,0,0
-1/14/2023 1:11 pm,03,Estimate,"12 Rocheleau, Glen",0,4411.60,1,0
+1/14/2023 1:11 pm,03,Estimate,"12 Rocheleau, Glen",0,5594.00,1,0
 1/14/2023 2:44 pm,03,Customer Invoice,"98 McGoldrick, Christopher",1,712.00,0,0
 1/14/2023 3:26 pm,03,Customer Invoice,"3 Vick, Kenneth",1,148.00,0,0
 1/14/2023 4:22 pm,03,Customer Invoice,"12 Rocheleau, Glen",1,217.76,0,0
@@ -9135,7 +9135,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 2/11/2023 12:49 pm,07,Customer Invoice,"39 Kamm, Kris",1,64.40,0,0
 2/11/2023 2:12 pm,07,Estimate,"80 Ramos, Julian",0,2811.00,1,1
 2/11/2023 4:11 pm,07,Estimate,"80 Ramos, Julian",0,5125.37,1,0
-2/11/2023 4:15 pm,09,Estimate,"80 Ramos, Julian",0,5027.10,1,0
+2/11/2023 4:15 pm,09,Estimate,"80 Ramos, Julian",0,4907.20,1,0
 2/11/2023 4:26 pm,07,Customer Invoice,"39 Kamm, Kris",1,4006.02,0,0
 2/12/2023 12:16 pm,07,Estimate,"71 Brunner, Nicole",0,1557.00,1,1
 2/12/2023 12:29 pm,07,Customer Invoice,"71 Brunner, Nicole",1,1557.00,0,0
@@ -9298,7 +9298,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 2/19/2023 3:53 pm,08,Cash Sale,"12 Rocheleau, Glen",1,1641.00,0,0
 2/19/2023 4:14 pm,08,Estimate,"12 Rocheleau, Glen",0,655.20,1,1
 2/19/2023 4:14 pm,08,Customer Invoice,"12 Rocheleau, Glen",1,655.20,0,0
-2/20/2023 8:01 am,09,Estimate,"71 Brunner, Nicole",0,1614.00,1,0
+2/20/2023 8:01 am,09,Estimate,"71 Brunner, Nicole",0,1614.00,1,1
 2/20/2023 9:49 am,09,Estimate,"39 Kamm, Kris",0,24522.00,1,0
 2/20/2023 9:56 am,09,Customer Invoice,"98 McGoldrick, Christopher",1,148.00,0,0
 2/20/2023 10:47 am,09,Estimate,"80 Ramos, Julian",0,2514.24,1,1
@@ -9453,7 +9453,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 2/28/2023 1:35 pm,10,Customer Invoice,"12 Rocheleau, Glen",1,14190.05,0,0
 2/28/2023 1:35 pm,10,Customer Invoice,"98 McGoldrick, Christopher",1,229.46,0,0
 2/28/2023 3:27 pm,10,Estimate,"3 Vick, Kenneth",0,4694.81,1,0
-2/28/2023 3:43 pm,11,Estimate,"80 Ramos, Julian",0,3024.83,1,0
+2/28/2023 3:43 pm,11,Estimate,"80 Ramos, Julian",0,3024.83,1,1
 2/28/2023 3:47 pm,10,Customer Invoice,"12 Rocheleau, Glen",1,608.00,0,0
 2/28/2023 4:05 pm,10,Estimate,"101 Palmer, Stephanie",0,7904.64,1,1
 2/28/2023 4:16 pm,10,Customer Invoice,"101 Palmer, Stephanie",1,7904.64,0,0
@@ -9509,7 +9509,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/3/2023 1:43 pm,10,Customer Invoice,"12 Rocheleau, Glen",1,4620.00,0,0
 3/3/2023 2:00 pm,10,Estimate,"39 Kamm, Kris",0,1402.50,1,1
 3/3/2023 2:06 pm,10,Customer Invoice,"39 Kamm, Kris",1,1402.50,0,0
-3/3/2023 2:26 pm,10,Estimate,"39 Kamm, Kris",0,503.20,1,0
+3/3/2023 2:26 pm,10,Estimate,"39 Kamm, Kris",0,503.20,1,1
 3/3/2023 2:56 pm,10,Estimate,"12 Rocheleau, Glen",0,48.00,1,1
 3/3/2023 3:17 pm,10,Estimate,"98 McGoldrick, Christopher",0,123.84,1,1
 3/3/2023 3:18 pm,10,Customer Invoice,"98 McGoldrick, Christopher",1,105.88,0,0
@@ -9524,13 +9524,13 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/4/2023 12:28 pm,10,Estimate,"39 Kamm, Kris",0,476.00,1,1
 3/4/2023 1:25 pm,10,Estimate,"39 Kamm, Kris",0,367.20,1,1
 3/4/2023 1:40 pm,10,Estimate,"71 Brunner, Nicole",0,1439.20,1,0
-3/4/2023 1:44 pm,10,Estimate,"80 Ramos, Julian",0,3996.00,1,0
+3/4/2023 1:44 pm,10,Estimate,"80 Ramos, Julian",0,4148.90,1,0
 3/4/2023 1:52 pm,10,Estimate,"39 Kamm, Kris",0,777.36,1,0
 3/4/2023 2:13 pm,10,Estimate,"80 Ramos, Julian",0,12.99,1,1
 3/4/2023 2:15 pm,10,Cash Sale,"80 Ramos, Julian",1,12.99,0,0
 3/4/2023 2:37 pm,10,Estimate,"80 Ramos, Julian",0,3910.50,1,1
 3/4/2023 2:41 pm,10,Customer Invoice,"80 Ramos, Julian",1,3910.50,0,0
-3/4/2023 3:49 pm,10,Estimate,"39 Kamm, Kris",0,2520.00,1,0
+3/4/2023 3:49 pm,10,Estimate,"39 Kamm, Kris",0,2520.00,1,1
 3/4/2023 4:14 pm,10,Customer Invoice,"39 Kamm, Kris",1,925.60,0,0
 3/5/2023 12:06 pm,10,Estimate,"71 Brunner, Nicole",0,2023.20,1,0
 3/5/2023 1:54 pm,10,Estimate,"93 Madnani, Reshma",0,1271.94,1,1
@@ -9542,7 +9542,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/6/2023 9:15 am,11,Estimate,"12 Rocheleau, Glen",0,1152.00,1,0
 3/6/2023 9:38 am,11,Customer Invoice,"101 Palmer, Stephanie",1,110.00,0,0
 3/6/2023 10:21 am,11,Customer Invoice,"71 Brunner, Nicole",1,857.70,0,0
-3/6/2023 10:22 am,11,Estimate,"12 Rocheleau, Glen",0,4359.74,1,0
+3/6/2023 10:22 am,11,Estimate,"12 Rocheleau, Glen",0,4828.78,1,1
 3/6/2023 11:27 am,11,Estimate,"12 Rocheleau, Glen",0,308.00,1,0
 3/6/2023 12:15 pm,11,Customer Invoice,"39 Kamm, Kris",1,367.20,0,0
 3/6/2023 12:21 pm,11,Customer Invoice,"3 Vick, Kenneth",1,2270.00,0,0
@@ -9550,7 +9550,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/6/2023 12:36 pm,11,Estimate,"80 Ramos, Julian",0,37553.80,1,0
 3/6/2023 12:36 pm,11,Estimate,"80 Ramos, Julian",0,37553.80,1,0
 3/6/2023 12:39 pm,11,Estimate,"80 Ramos, Julian",0,37553.80,1,0
-3/6/2023 12:55 pm,11,Estimate,"80 Ramos, Julian",0,37706.10,1,0
+3/6/2023 12:55 pm,11,Estimate,"80 Ramos, Julian",0,18705.14,1,0
 3/6/2023 1:09 pm,11,Customer Invoice,"12 Rocheleau, Glen",1,6203.35,0,0
 3/6/2023 1:11 pm,11,Customer Invoice,"12 Rocheleau, Glen",1,15259.18,0,0
 3/6/2023 1:35 pm,11,Estimate,"101 Palmer, Stephanie",0,2202.10,1,1
@@ -9566,7 +9566,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/6/2023 3:06 pm,11,Estimate,"98 McGoldrick, Christopher",0,2991.92,1,0
 3/6/2023 3:16 pm,11,Estimate,"12 Rocheleau, Glen",0,1409.00,1,1
 3/6/2023 3:16 pm,11,Customer Invoice,"12 Rocheleau, Glen",1,1409.00,0,0
-3/6/2023 3:44 pm,11,Estimate,"98 McGoldrick, Christopher",0,2296.56,1,0
+3/6/2023 3:44 pm,11,Estimate,"98 McGoldrick, Christopher",0,1952.08,1,0
 3/6/2023 4:06 pm,11,Estimate,"39 Kamm, Kris",0,3451.31,1,1
 3/6/2023 4:19 pm,11,Estimate,"39 Kamm, Kris",0,8760.96,1,0
 3/6/2023 5:24 pm,11,Estimate,"39 Kamm, Kris",0,133.56,1,1
@@ -9587,7 +9587,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/7/2023 11:13 am,11,Estimate,"12 Rocheleau, Glen",0,2353.00,1,1
 3/7/2023 11:15 am,11,Customer Invoice,"12 Rocheleau, Glen",1,2353.00,0,0
 3/7/2023 11:28 am,11,Customer Invoice,"101 Palmer, Stephanie",1,287.20,0,0
-3/7/2023 11:53 am,11,Estimate,"98 McGoldrick, Christopher",0,18716.00,1,0
+3/7/2023 11:53 am,11,Estimate,"98 McGoldrick, Christopher",0,16523.20,1,0
 3/7/2023 12:39 pm,11,Customer Invoice,"12 Rocheleau, Glen",1,3236.00,0,0
 3/7/2023 12:41 pm,11,Estimate,"39 Kamm, Kris",0,1022.40,1,1
 3/7/2023 1:24 pm,11,Estimate,"93 Madnani, Reshma",0,272.00,1,1
@@ -9601,7 +9601,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/7/2023 3:44 pm,11,Customer Invoice,"80 Ramos, Julian",1,.00,0,0
 3/7/2023 3:45 pm,11,Estimate,"39 Kamm, Kris",0,686.40,1,0
 3/7/2023 3:49 pm,11,Estimate,"39 Kamm, Kris",0,870.40,1,0
-3/7/2023 4:01 pm,11,Estimate,"71 Brunner, Nicole",0,3174.96,1,0
+3/7/2023 4:01 pm,11,Estimate,"71 Brunner, Nicole",0,3174.96,1,1
 3/7/2023 4:50 pm,11,Customer Invoice,"12 Rocheleau, Glen",1,1295.00,0,0
 3/7/2023 5:09 pm,11,Estimate,"71 Brunner, Nicole",0,119.00,1,1
 3/7/2023 5:12 pm,11,Customer Invoice,"71 Brunner, Nicole",1,119.00,0,0
@@ -9616,7 +9616,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/8/2023 11:10 am,11,Customer Invoice,"12 Rocheleau, Glen",1,1694.40,0,0
 3/8/2023 11:30 am,11,Estimate,"101 Palmer, Stephanie",0,2463.15,1,0
 3/8/2023 11:50 am,11,Customer Invoice,"93 Madnani, Reshma",1,789.86,0,0
-3/8/2023 12:15 pm,11,Estimate,"3 Vick, Kenneth",0,8494.64,1,0
+3/8/2023 12:15 pm,11,Estimate,"3 Vick, Kenneth",0,15310.58,1,1
 3/8/2023 2:11 pm,11,Estimate,"12 Rocheleau, Glen",0,1824.48,1,0
 3/8/2023 2:33 pm,11,Estimate,"71 Brunner, Nicole",0,1361.25,1,1
 3/8/2023 2:34 pm,11,Customer Invoice,"71 Brunner, Nicole",1,1680.00,0,0
@@ -9645,19 +9645,19 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/9/2023 1:12 pm,11,Customer Invoice,"93 Madnani, Reshma",1,757.20,0,0
 3/9/2023 1:14 pm,11,Estimate,"80 Ramos, Julian",0,546.00,1,1
 3/9/2023 1:16 pm,11,Customer Invoice,"80 Ramos, Julian",1,546.00,0,0
-3/9/2023 1:22 pm,11,Estimate,"71 Brunner, Nicole",0,11569.00,1,0
+3/9/2023 1:22 pm,11,Estimate,"71 Brunner, Nicole",0,11938.50,1,1
 3/9/2023 1:30 pm,11,Estimate,"3 Vick, Kenneth",0,373.60,1,1
 3/9/2023 1:40 pm,11,Estimate,"80 Ramos, Julian",0,2371.80,1,1
 3/9/2023 1:44 pm,11,Customer Invoice,"80 Ramos, Julian",1,2371.80,0,0
 3/9/2023 1:46 pm,11,Customer Invoice,"3 Vick, Kenneth",1,373.60,0,0
 3/9/2023 2:01 pm,11,Estimate,"101 Palmer, Stephanie",0,675.75,1,0
-3/9/2023 3:17 pm,11,Estimate,"39 Kamm, Kris",0,2732.40,1,0
+3/9/2023 3:17 pm,11,Estimate,"39 Kamm, Kris",0,2732.40,1,1
 3/9/2023 3:39 pm,11,Customer Invoice,"39 Kamm, Kris",1,2516.00,0,0
-3/9/2023 4:49 pm,11,Estimate,"39 Kamm, Kris",0,828.80,1,0
+3/9/2023 4:49 pm,11,Estimate,"39 Kamm, Kris",0,828.80,1,1
 3/10/2023 9:16 am,11,Estimate,"3 Vick, Kenneth",0,5775.00,1,0
 3/10/2023 9:23 am,11,Estimate,"3 Vick, Kenneth",0,4095.00,1,0
 3/10/2023 9:51 am,11,Estimate,"3 Vick, Kenneth",0,6475.00,1,0
-3/10/2023 10:16 am,11,Estimate,"12 Rocheleau, Glen",0,1860.00,1,0
+3/10/2023 10:16 am,11,Estimate,"12 Rocheleau, Glen",0,3294.00,1,1
 3/10/2023 10:27 am,11,Estimate,"3 Vick, Kenneth",0,8700.00,1,0
 3/10/2023 10:34 am,11,Estimate,"71 Brunner, Nicole",0,569.96,1,0
 3/10/2023 10:35 am,11,Customer Invoice,"39 Kamm, Kris",1,5920.82,0,0
@@ -9667,7 +9667,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/10/2023 10:56 am,11,Customer Invoice,"80 Ramos, Julian",1,512.00,0,0
 3/10/2023 11:15 am,11,Estimate,"71 Brunner, Nicole",0,109.20,1,1
 3/10/2023 11:19 am,11,Customer Invoice,"71 Brunner, Nicole",1,109.20,0,0
-3/10/2023 11:24 am,11,Estimate,"39 Kamm, Kris",0,2977.30,1,0
+3/10/2023 11:24 am,11,Estimate,"39 Kamm, Kris",0,2977.30,1,1
 3/10/2023 11:29 am,11,Estimate,"12 Rocheleau, Glen",0,150.00,1,1
 3/10/2023 11:41 am,11,Estimate,"12 Rocheleau, Glen",0,1095.00,1,1
 3/10/2023 11:42 am,11,Customer Invoice,"12 Rocheleau, Glen",1,1095.00,0,0
@@ -9675,7 +9675,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/10/2023 12:28 pm,11,Estimate,"71 Brunner, Nicole",0,1044.80,1,0
 3/10/2023 12:37 pm,11,Estimate,"80 Ramos, Julian",0,2492.10,1,0
 3/10/2023 12:54 pm,11,Customer Invoice,"39 Kamm, Kris",1,1022.40,0,0
-3/10/2023 1:18 pm,11,Estimate,"3 Vick, Kenneth",0,2113.82,1,0
+3/10/2023 1:18 pm,11,Estimate,"3 Vick, Kenneth",0,2113.82,1,1
 3/10/2023 1:30 pm,11,Customer Invoice,"3 Vick, Kenneth",1,280.06,0,0
 3/10/2023 1:53 pm,11,Customer Invoice,"71 Brunner, Nicole",1,5359.50,0,0
 3/10/2023 2:08 pm,11,Estimate,"39 Kamm, Kris",0,344.20,1,1
@@ -9686,7 +9686,7 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/10/2023 2:40 pm,11,Customer Invoice,"39 Kamm, Kris",1,3451.31,0,0
 3/10/2023 2:55 pm,11,Estimate,"71 Brunner, Nicole",0,1189.90,1,0
 3/10/2023 3:02 pm,11,Estimate,"3 Vick, Kenneth",0,1773.60,1,0
-3/10/2023 3:41 pm,11,Estimate,"71 Brunner, Nicole",0,106.50,1,0
+3/10/2023 3:41 pm,11,Estimate,"71 Brunner, Nicole",0,106.50,1,1
 3/10/2023 4:17 pm,11,Estimate,"98 McGoldrick, Christopher",0,966.40,1,1
 3/10/2023 4:44 pm,11,Customer Invoice,"98 McGoldrick, Christopher",1,966.40,0,0
 3/10/2023 5:10 pm,11,Customer Invoice,"3 Vick, Kenneth",1,.00,0,0
@@ -9703,5 +9703,123 @@ date_time,week,type,sales_rep,number_of_sales,gross_sales,number_of_estimates,es
 3/11/2023 2:08 pm,11,Customer Invoice,"80 Ramos, Julian",1,880.00,0,0
 3/11/2023 4:14 pm,11,Customer Invoice,"80 Ramos, Julian",1,765.00,0,0
 3/11/2023 4:24 pm,11,Estimate,"12 Rocheleau, Glen",0,1500.00,1,0
-3/11/2023 4:26 pm,11,Estimate,"12 Rocheleau, Glen",0,2196.00,1,0
-Overall Total,,,,"4,007.0",26424373.94,"5,698.0","3,112.0"
+3/11/2023 4:26 pm,11,Estimate,"12 Rocheleau, Glen",0,2196.00,1,1
+3/12/2023 11:53 am,11,Estimate,"71 Brunner, Nicole",0,3735.00,1,1
+3/12/2023 1:06 pm,11,Estimate,"71 Brunner, Nicole",0,892.80,1,0
+3/12/2023 2:58 pm,11,Customer Invoice,"39 Kamm, Kris",1,503.20,0,0
+3/13/2023 6:35 am,12,Estimate,"93 Madnani, Reshma",0,1203.20,1,0
+3/13/2023 8:18 am,12,Estimate,"93 Madnani, Reshma",0,1487.50,1,0
+3/13/2023 8:37 am,12,Customer Invoice,"39 Kamm, Kris",1,2520.00,0,0
+3/13/2023 10:37 am,12,Estimate,"71 Brunner, Nicole",0,389.38,1,0
+3/13/2023 10:40 am,12,Estimate,"80 Ramos, Julian",0,1300.00,1,0
+3/13/2023 10:59 am,12,Estimate,"71 Brunner, Nicole",0,4957.89,1,0
+3/13/2023 11:17 am,12,Customer Invoice,"71 Brunner, Nicole",1,106.50,0,0
+3/13/2023 11:45 am,12,Customer Invoice,"12 Rocheleau, Glen",1,2196.00,0,0
+3/13/2023 12:06 pm,12,Estimate,"80 Ramos, Julian",0,635.04,1,0
+3/13/2023 1:19 pm,12,Estimate,"80 Ramos, Julian",0,287.20,1,1
+3/13/2023 1:21 pm,12,Customer Invoice,"80 Ramos, Julian",1,287.20,0,0
+3/13/2023 1:22 pm,12,Estimate,"39 Kamm, Kris",0,839.20,1,0
+3/13/2023 2:06 pm,12,Estimate,"80 Ramos, Julian",0,331.50,1,0
+3/13/2023 2:22 pm,12,Customer Invoice,"3 Vick, Kenneth",1,1395.42,0,0
+3/13/2023 2:37 pm,12,Customer Invoice,"12 Rocheleau, Glen",1,3294.00,0,0
+3/13/2023 3:02 pm,12,Estimate,"12 Rocheleau, Glen",0,1232.00,1,0
+3/13/2023 3:30 pm,12,Estimate,"71 Brunner, Nicole",0,6748.20,1,0
+3/13/2023 3:57 pm,12,Customer Invoice,"39 Kamm, Kris",1,828.80,0,0
+3/13/2023 4:08 pm,12,Customer Invoice,"39 Kamm, Kris",1,2732.40,0,0
+3/13/2023 4:26 pm,12,Estimate,"39 Kamm, Kris",0,2680.00,1,1
+3/13/2023 4:27 pm,12,Customer Invoice,"39 Kamm, Kris",1,2680.00,0,0
+3/13/2023 5:07 pm,12,Estimate,"80 Ramos, Julian",0,2902.40,1,1
+3/14/2023 8:28 am,12,Estimate,"3 Vick, Kenneth",0,984.00,1,1
+3/14/2023 8:32 am,12,Customer Invoice,"3 Vick, Kenneth",1,984.00,0,0
+3/14/2023 9:56 am,12,Customer Invoice,"101 Palmer, Stephanie",1,1216.00,0,0
+3/14/2023 10:00 am,12,Estimate,"101 Palmer, Stephanie",0,1216.00,1,0
+3/14/2023 10:25 am,12,Estimate,"71 Brunner, Nicole",0,13506.30,1,0
+3/14/2023 11:01 am,12,Customer Invoice,"101 Palmer, Stephanie",1,736.00,0,0
+3/14/2023 11:27 am,12,Estimate,"93 Madnani, Reshma",0,792.00,1,1
+3/14/2023 11:48 am,12,Estimate,"39 Kamm, Kris",0,396.00,1,1
+3/14/2023 12:07 pm,12,Estimate,"39 Kamm, Kris",0,3506.20,1,0
+3/14/2023 12:10 pm,12,Estimate,"39 Kamm, Kris",0,3538.71,1,0
+3/14/2023 1:59 pm,12,Estimate,"39 Kamm, Kris",0,2959.55,1,0
+3/14/2023 2:00 pm,12,Customer Invoice,"39 Kamm, Kris",1,396.00,0,0
+3/14/2023 2:42 pm,12,Estimate,"12 Rocheleau, Glen",0,504.30,1,1
+3/14/2023 2:45 pm,12,Customer Invoice,"101 Palmer, Stephanie",1,215.96,0,0
+3/14/2023 2:45 pm,12,Customer Invoice,"12 Rocheleau, Glen",1,504.30,0,0
+3/14/2023 3:10 pm,12,Estimate,"93 Madnani, Reshma",0,646.00,1,0
+3/14/2023 3:20 pm,12,Estimate,"39 Kamm, Kris",0,319.76,1,0
+3/14/2023 4:48 pm,12,Estimate,"12 Rocheleau, Glen",0,17644.00,1,0
+3/14/2023 5:59 pm,12,Estimate,"80 Ramos, Julian",0,480.00,1,0
+3/14/2023 8:30 pm,12,Customer Invoice,"71 Brunner, Nicole",1,3735.00,0,0
+3/15/2023 6:36 am,12,Estimate,"93 Madnani, Reshma",0,582.20,1,0
+3/15/2023 9:36 am,12,Customer Invoice,"101 Palmer, Stephanie",1,225.60,0,0
+3/15/2023 9:48 am,12,Estimate,"101 Palmer, Stephanie",0,3022.94,1,0
+3/15/2023 10:06 am,12,Estimate,"101 Palmer, Stephanie",0,401.20,1,0
+3/15/2023 11:24 am,12,Estimate,"12 Rocheleau, Glen",0,71568.45,1,0
+3/15/2023 12:33 pm,12,Estimate,"12 Rocheleau, Glen",0,21578.12,1,0
+3/15/2023 12:44 pm,12,Estimate,"12 Rocheleau, Glen",0,1349.00,1,1
+3/15/2023 12:47 pm,12,Customer Invoice,"12 Rocheleau, Glen",1,1136.00,0,0
+3/15/2023 12:56 pm,12,Cash Sale,"12 Rocheleau, Glen",1,409.00,0,0
+3/15/2023 1:28 pm,12,Customer Invoice,"98 McGoldrick, Christopher",1,2431.00,0,0
+3/15/2023 1:36 pm,12,Cash Sale,"12 Rocheleau, Glen",1,3000.00,0,0
+3/15/2023 1:42 pm,12,Customer Invoice,"12 Rocheleau, Glen",1,4828.78,0,0
+3/15/2023 2:02 pm,12,Customer Invoice,"39 Kamm, Kris",1,2977.30,0,0
+3/15/2023 2:10 pm,12,Estimate,"12 Rocheleau, Glen",0,760.59,1,1
+3/15/2023 2:11 pm,12,Customer Invoice,"39 Kamm, Kris",1,160.00,0,0
+3/15/2023 2:11 pm,12,Customer Invoice,"12 Rocheleau, Glen",1,760.59,0,0
+3/15/2023 2:19 pm,12,Estimate,"101 Palmer, Stephanie",0,107.10,1,1
+3/15/2023 3:55 pm,12,Estimate,"12 Rocheleau, Glen",0,696.00,1,1
+3/15/2023 3:57 pm,12,Customer Invoice,"12 Rocheleau, Glen",1,696.00,0,0
+3/15/2023 4:34 pm,12,Estimate,"39 Kamm, Kris",0,982.50,1,1
+3/15/2023 4:35 pm,12,Customer Invoice,"39 Kamm, Kris",1,982.50,0,0
+3/15/2023 4:52 pm,12,Estimate,"39 Kamm, Kris",0,2744.18,1,0
+3/15/2023 4:59 pm,12,Estimate,"39 Kamm, Kris",0,3564.00,1,0
+3/15/2023 6:45 pm,12,Customer Invoice,"71 Brunner, Nicole",1,11938.50,0,0
+3/16/2023 7:37 am,12,Customer Invoice,"93 Madnani, Reshma",1,792.00,0,0
+3/16/2023 9:05 am,12,Estimate,"93 Madnani, Reshma",0,27731.28,1,1
+3/16/2023 9:33 am,12,Estimate,"12 Rocheleau, Glen",0,1608.00,1,0
+3/16/2023 9:41 am,12,Customer Invoice,"101 Palmer, Stephanie",1,107.10,0,0
+3/16/2023 10:03 am,12,Estimate,"80 Ramos, Julian",0,1859.00,1,1
+3/16/2023 10:08 am,12,Customer Invoice,"80 Ramos, Julian",1,1859.00,0,0
+3/16/2023 10:27 am,12,Customer Invoice,"3 Vick, Kenneth",1,14610.58,0,0
+3/16/2023 10:35 am,12,Customer Invoice,"3 Vick, Kenneth",1,2800.00,0,0
+3/16/2023 11:05 am,12,Customer Invoice,"80 Ramos, Julian",1,3024.83,0,0
+3/16/2023 11:16 am,12,Customer Invoice,"93 Madnani, Reshma",1,7898.88,0,0
+3/16/2023 11:19 am,12,Customer Invoice,"71 Brunner, Nicole",1,3174.96,0,0
+3/16/2023 11:25 am,12,Customer Invoice,"93 Madnani, Reshma",1,19832.40,0,0
+3/16/2023 11:38 am,12,Estimate,"71 Brunner, Nicole",0,6330.40,1,0
+3/16/2023 11:43 am,12,Estimate,"12 Rocheleau, Glen",0,697.00,1,0
+3/16/2023 11:55 am,12,Estimate,"80 Ramos, Julian",0,505.75,1,1
+3/16/2023 11:56 am,12,Customer Invoice,"80 Ramos, Julian",1,505.75,0,0
+3/16/2023 12:12 pm,12,Estimate,"101 Palmer, Stephanie",0,484.50,1,0
+3/16/2023 1:30 pm,12,Estimate,"71 Brunner, Nicole",0,776.00,1,1
+3/16/2023 1:34 pm,12,Customer Invoice,"71 Brunner, Nicole",1,776.00,0,0
+3/16/2023 1:54 pm,12,Customer Invoice,"71 Brunner, Nicole",1,1614.00,0,0
+3/16/2023 2:30 pm,12,Estimate,"71 Brunner, Nicole",0,5139.20,1,1
+3/16/2023 2:32 pm,12,Customer Invoice,"71 Brunner, Nicole",1,5299.20,0,0
+3/16/2023 2:52 pm,12,Customer Invoice,"101 Palmer, Stephanie",1,2584.50,0,0
+3/16/2023 3:07 pm,12,Customer Invoice,"101 Palmer, Stephanie",1,258.84,0,0
+3/16/2023 3:08 pm,12,Estimate,"71 Brunner, Nicole",0,2157.60,1,0
+3/16/2023 3:16 pm,12,Estimate,"39 Kamm, Kris",0,1972.30,1,0
+3/16/2023 3:58 pm,12,Cash Sale,"39 Kamm, Kris",1,23.20,0,0
+3/16/2023 5:08 pm,12,Customer Invoice,"101 Palmer, Stephanie",1,440.00,0,0
+3/16/2023 5:50 pm,12,Customer Invoice,"3 Vick, Kenneth",1,1975.24,0,0
+3/17/2023 7:50 am,12,Customer Invoice,"93 Madnani, Reshma",1,68.00,0,0
+3/17/2023 8:23 am,12,Customer Invoice,"93 Madnani, Reshma",1,1315.80,0,0
+3/17/2023 8:32 am,12,Estimate,"93 Madnani, Reshma",0,9005.58,1,0
+3/17/2023 9:45 am,12,Estimate,"12 Rocheleau, Glen",0,627.00,1,0
+3/17/2023 9:46 am,12,Estimate,"12 Rocheleau, Glen",0,3137.40,1,0
+3/17/2023 10:07 am,12,Estimate,"71 Brunner, Nicole",0,343.20,1,1
+3/17/2023 10:11 am,12,Customer Invoice,"71 Brunner, Nicole",1,343.20,0,0
+3/17/2023 10:30 am,12,Estimate,"39 Kamm, Kris",0,2329.50,1,0
+3/17/2023 10:33 am,12,Estimate,"39 Kamm, Kris",0,937.44,1,0
+3/17/2023 10:45 am,12,Estimate,"12 Rocheleau, Glen",0,869.00,1,0
+3/17/2023 12:50 pm,12,Estimate,"12 Rocheleau, Glen",0,512.94,1,0
+3/17/2023 12:55 pm,12,Estimate,"12 Rocheleau, Glen",0,168.30,1,0
+3/17/2023 1:54 pm,12,Estimate,"71 Brunner, Nicole",0,906.01,1,1
+3/17/2023 2:16 pm,12,Customer Invoice,"71 Brunner, Nicole",1,906.01,0,0
+3/17/2023 2:43 pm,12,Estimate,"80 Ramos, Julian",0,420.00,1,1
+3/17/2023 2:50 pm,12,Customer Invoice,"80 Ramos, Julian",1,420.00,0,0
+3/17/2023 3:15 pm,12,Estimate,"80 Ramos, Julian",0,369.00,1,1
+3/17/2023 3:16 pm,12,Customer Invoice,"80 Ramos, Julian",1,369.00,0,0
+3/17/2023 4:14 pm,12,Customer Invoice,"80 Ramos, Julian",1,2902.40,0,0
+3/17/2023 5:03 pm,12,Estimate,"71 Brunner, Nicole",0,5299.20,1,1
+Overall Total,,,,"4,061.0",26798572.53,"5,762.0","3,150.0"

@@ -19,7 +19,7 @@ def render(app: Dash, data: pd.DataFrame) -> html.Div:
 
     )
     def select_all_reps(years: list[str], _: int) -> list[str]:
-        filtered_data = data.query("fiscal_year in @years")
+        filtered_data = data.query("fiscal_year == @years")
         return sorted(set(filtered_data[DataSchema.REPS].tolist()))
 
     return html.Div(

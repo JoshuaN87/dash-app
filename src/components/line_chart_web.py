@@ -16,7 +16,7 @@ def render_web(app: Dash, data_ad: pd.DataFrame) -> html.Div:
         ])
     def update_chart_web(years: list[str]) -> html.Div:
         filtered_data = data_ad.query(
-            "fiscal_year in @years"
+            "fiscal_year == @years"
         )
         if filtered_data.shape[0] == 0:        
             return html.Div('No Data Selected', id=ids.LINE_CHART_WEB)
