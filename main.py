@@ -16,10 +16,12 @@ def main() -> None:
 
     app = Dash(external_stylesheets=[LUX])
     
+
     app.title = 'Sales Dashboard'
     app.layout = create_layout(app, data, data_ad, merged)
     
     app.run(debug=True)
+    server = app.server
 
 if __name__ == "__main__":
     main()
