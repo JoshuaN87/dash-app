@@ -57,10 +57,17 @@ def create_time_day(df: pd.DataFrame) ->pd.DataFrame:
     df[DataSchema.TIME_DAY] = df[DataSchema.HOUR].map(time_of_day)
     return df
 
+def business_year(value):
+    if value < '2021-12-27':
+        return "Fiscal Year 2021" 
+    if '2021-12-27' <= value < '2022-12-26':
+        return "Fiscal Year 2022"
+    elif value >= '2022-12-26':
+        return "Fiscal Year 2023"
 
 def fiscal_year(df: pd.DataFrame) -> pd.DataFrame:
-    df[DataSchema.FISCAL_YEAR] = df[DataSchema.DATE] < '2022-12-26'
-    df[DataSchema.FISCAL_YEAR] = df[DataSchema.FISCAL_YEAR].map({True: 22, False: 23})
+    df[DataSchema.DATE] = df[DataSchema.DATE].astype(str)      
+    df[DataSchema.FISCAL_YEAR] = df[DataSchema.DATE].map(business_year)
     return df
 
 def compose(*functions: Preprocessor) -> Preprocessor:
@@ -85,8 +92,7 @@ def load_transaction_data(path: str) -> pd.DataFrame:
         create_month_column,
         create_day_column,
         create_hour_column,
-        create_time_day,
-        fiscal_year
+        fiscal_year    
     )
     return preprocesser(data)
 
@@ -108,6 +114,7 @@ def load_additional_data(path: str) -> pd.DataFrame:
         create_hour_column,
         fiscal_year
     )
+    print(preprocesser(data_ad))
     return preprocesser(data_ad)
 
 def merge(data: pd.DataFrame, data_ad: pd.DataFrame) ->pd.DataFrame:
@@ -118,4 +125,5 @@ def merge(data: pd.DataFrame, data_ad: pd.DataFrame) ->pd.DataFrame:
     merged.fillna({'type':'Web', 'sales_rep':'Web'}, inplace=True)
     merged.fillna(0, inplace = True)
 
+    print(merged)
     return merged

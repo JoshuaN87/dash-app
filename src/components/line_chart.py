@@ -36,7 +36,7 @@ def render(app: Dash, data: pd.DataFrame) -> html.Div:
                 render_mode='svg',
                 title='Studio Sales YOY',
                 template='plotly_white',
-                color_discrete_sequence=['Orange', 'Blue']
+                color_discrete_sequence=['Orange', 'Blue', 'Green']
             )
             fig.update_traces(mode="lines", hovertemplate='%{y:$,.0f}')
             fig.update_layout(hovermode="x unified")
@@ -50,7 +50,7 @@ def render(app: Dash, data: pd.DataFrame) -> html.Div:
                 render_mode='svg',
                 title='Studio Sales YOY',
                 template='plotly_white',
-                color_discrete_sequence=['Orange', 'Blue']
+                color_discrete_sequence=['Orange', 'Blue', 'Green']
             )
             fig.update_traces(mode="lines", hovertemplate='%{y:$,.0f}')
             fig.update_layout(hovermode="x unified")        

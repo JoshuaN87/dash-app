@@ -36,7 +36,7 @@ def render_blend(app: Dash, merged: pd.DataFrame) -> html.Div:
             render_mode='svg',
             title='Blended Sales YOY',
             template='plotly_white',
-            color_discrete_sequence=['Orange', 'Blue']
+            color_discrete_sequence=['Orange', 'Blue', 'Green']
         )
         fig.update_traces(mode="markers+lines", hovertemplate='%{y:$,.0f}')
         fig.update_layout(hovermode="x unified")

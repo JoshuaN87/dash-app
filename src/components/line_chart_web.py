@@ -33,7 +33,7 @@ def render_web(app: Dash, data_ad: pd.DataFrame) -> html.Div:
             line_shape='spline',
             render_mode='svg',
             template='plotly_white',
-            color_discrete_sequence=['Orange', 'Blue']
+            color_discrete_sequence=['Orange', 'Blue' ,'Green']
         )
         fig.update_traces(mode="lines", hovertemplate='%{y:$,.0f}')
         fig.update_layout(hovermode="x unified")        
