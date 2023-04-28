@@ -1,24 +1,24 @@
 import pandas as pd
 import plotly.express as px
-from dash import Dash, dcc, html
+from dash import dcc, html, callback
 from dash.dependencies import Input, Output
 
 from ..data.loader import DataSchema
 from . import ids
 
-def render(app: Dash, data: pd.DataFrame) -> html.Div:
+def render(data: pd.DataFrame) -> html.Div:
 
-    @app.callback(
+    @callback(
         Output(ids.LINE_CHART,'children'),
         [
-            Input(ids.YEAR_DROPDOWN, "value"),
-            Input(ids.REP_DROPDOWN, 'value')
-        ],
-            prevent_initial_call=True
-        )
+            Input(ids.STUDIO_YEAR_DROPDOWN, "value"),
+            Input(ids.REP_DROPDOWN, 'value'),
+        ], prevent_initial_call=True
+    )
+    
     def update_chart(years: list[str], reps: list[str]) -> html.Div:
         filtered_data = data.query(
-            "fiscal_year == @years and sales_rep == @ reps"
+            "fiscal_year == @years and sales_rep == @reps"
         )
         if filtered_data.shape[0] == 0:        
             return html.Div("No Data Selected", id=ids.LINE_CHART)

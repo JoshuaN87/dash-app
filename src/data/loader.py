@@ -7,8 +7,6 @@ Preprocessor = Callable[[pd.DataFrame], pd.DataFrame]
 class DataSchema:
     AMOUNT = 'gross_sales'
     SALES = 'number_of_sales'
-    ESTIMATES = 'number_of_estimates'
-    ESTIMATES_PROCESSED = 'estimates_processed'
     DATE = 'date_time'
     YEAR = 'year'
     MONTH = 'month'
@@ -18,10 +16,11 @@ class DataSchema:
     REPS = 'sales_rep'
     FISCAL_YEAR = 'fiscal_year'
     TIME_DAY = 'time_of_day'
+    PCT_CHANGE = 'pct_change'
+    DIFF = 'change'
 
 def clean_convert(df: pd.DataFrame) -> pd.DataFrame:
     df = df.drop(index=df.index[-1], axis=0)
-    df = df.query("type != 'Estimate'")
     return df
 
 def convert_dtypes(df: pd.DataFrame) -> pd.DataFrame:
@@ -68,6 +67,20 @@ def business_year(value):
 def fiscal_year(df: pd.DataFrame) -> pd.DataFrame:
     df[DataSchema.DATE] = df[DataSchema.DATE].astype(str)      
     df[DataSchema.FISCAL_YEAR] = df[DataSchema.DATE].map(business_year)
+    df[DataSchema.FISCAL_YEAR] = df[DataSchema.FISCAL_YEAR].astype(str)     
+    return df
+
+def percent_change(df: pd.DataFrame) -> pd.DataFrame:
+    df[DataSchema.PCT_CHANGE] = df[DataSchema.AMOUNT].pct_change()
+    df[DataSchema.DIFF] = df[DataSchema.AMOUNT].diff()
+
+    return df
+def create_studio_df(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.query("sales_rep != 'LT Internet Sale'")
+    return df
+
+def create_web_df(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.query("sales_rep == 'LT Internet Sale'")
     return df
 
 def compose(*functions: Preprocessor) -> Preprocessor:
@@ -86,13 +99,12 @@ def load_transaction_data(path: str) -> pd.DataFrame:
         parse_dates=[DataSchema.DATE]
     )
     preprocesser = compose(
-        clean_convert,
         convert_dtypes,
         create_year_column,
         create_month_column,
         create_day_column,
-        create_hour_column,
-        fiscal_year    
+        fiscal_year,
+        create_studio_df,
     )
     return preprocesser(data)
 
@@ -108,14 +120,27 @@ def load_additional_data(path: str) -> pd.DataFrame:
     )
     preprocesser = compose(
         convert_dtypes,
-        create_year_column,
-        create_month_column,
-        create_day_column,
-        create_hour_column,
-        fiscal_year
+        fiscal_year,
+        create_web_df,
     )
     print(preprocesser(data_ad))
     return preprocesser(data_ad)
+
+def load_blended_data(path: str) -> pd.DataFrame:
+    data_blend= pd.read_csv(
+        path,
+        dtype={
+            DataSchema.AMOUNT: float,
+            DataSchema.DATE: str,
+            DataSchema.DAY: str,
+        },
+        parse_dates=[DataSchema.DATE]
+    )
+    preprocesser = compose(
+        convert_dtypes,
+        fiscal_year,
+    )
+    return preprocesser(data_blend)
 
 def merge(data: pd.DataFrame, data_ad: pd.DataFrame) ->pd.DataFrame:
     studio_df = data
@@ -125,5 +150,4 @@ def merge(data: pd.DataFrame, data_ad: pd.DataFrame) ->pd.DataFrame:
     merged.fillna({'type':'Web', 'sales_rep':'Web'}, inplace=True)
     merged.fillna(0, inplace = True)
 
-    print(merged)
     return merged

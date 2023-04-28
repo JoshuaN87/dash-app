@@ -1,22 +1,21 @@
 import pandas as pd
-from dash import Dash, dcc, html
+from dash import Dash, dcc, html, callback
 from dash.dependencies import Input, Output
 
 from ..data.loader import DataSchema
 from . import ids
 
 
-def render(app: Dash, data: pd.DataFrame) -> html.Div:
+def render(data: pd.DataFrame) -> html.Div:
     all_reps: list[str] = data[DataSchema.REPS].tolist()
     unique_reps: list[str] = sorted(set(all_reps), key=str)
 
-    @app.callback(
+    @callback(
         Output(ids.REP_DROPDOWN, 'value'),
         [
-            Input(ids.YEAR_DROPDOWN, 'value'),
+            Input(ids.STUDIO_YEAR_DROPDOWN, 'value'),
             Input(ids.SELECT_ALL_REPS_BUTTON, 'n_clicks'),   
         ],
-
     )
     def select_all_reps(years: list[str], _: int) -> list[str]:
         filtered_data = data.query("fiscal_year == @years")
